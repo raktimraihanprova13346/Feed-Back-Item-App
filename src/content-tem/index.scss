@@ -1,6 +1,21 @@
 .content-box{
     margin: auto;
     width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #e5dddd;
+    text-align: center;
 }
+
+.title-content{
+    background-color: rebeccapurple;
+    display: inline-table;
+    height: 50%;
+    width: calc(100% - 1px);
+    margin-top: unset;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+}
+
+

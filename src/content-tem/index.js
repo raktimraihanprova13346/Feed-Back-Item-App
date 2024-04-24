@@ -6,7 +6,7 @@ const item = (props) =>{
 
     return(
         <div class='content-box'>
-            <h2>{props.title}</h2>
+            <p class='title-content'>{props.title}</p>
             <p>{props.text}</p>
             <p>{props.rating}</p>
         </div>
